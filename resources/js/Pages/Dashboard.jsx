@@ -42,7 +42,8 @@ export default function Dashboard() {
                         </div>
 
                         <div>
-                            <a class="inline-block px-4 py-3 mb-0 font-bold text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in bg-150 hover:scale-102 active:opacity-85 bg-x-25 text-slate-500" href="javascript:;">
+                            <a class="inline-block px-4 py-3 mb-0 font-bold text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in bg-150 hover:scale-102 active:opacity-85 bg-x-25 text-slate-500" 
+                                href={ route('profile.edit') }>
                                 Edit Profile
                             </a>
                         </div>
@@ -120,7 +121,7 @@ export default function Dashboard() {
                             cursor-pointer leading-pro text-xs ease-soft-in shadow-soft-md bg-150 
                             bg-gradient-to-tl from-gray-900 to-slate-800 hover:shadow-soft-xs 
                             active:opacity-85 hover:scale-102 tracking-tight-soft bg-x-25" 
-                            href="#"> 
+                            href={route('test.index')}> 
                             Let's start
                         </a>
                   
